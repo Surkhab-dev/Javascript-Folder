@@ -88,5 +88,22 @@ console.log(typeof null);
 // call by value OR Primitive data types (string,number,boolean,null,undefined,BigInt,symbol) uses => [stack memory]
 // call by reference OR Non-primitive data types ( array,object, function) uses => [heap memory]
 
-let myYoutubeNameIs = "SurkhabChannel"
+let myNameIs = "Surkhab"
+let anotherName = myNameIs
+anotherName = "Govind"
+
+console.log(myNameIs)
+console.log(anotherName)
+
+let userOne = {
+   email: surkhab@gmail.com,
+   upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "surkhabaroar@gmail.com"
+console.log(userOne.email)
+console.log(userTwo.email)
+
 
