@@ -88,6 +88,9 @@ console.log(typeof null);
 // call by value OR Primitive data types (string,number,boolean,null,undefined,BigInt,symbol) uses => [stack memory]
 // call by reference OR Non-primitive data types ( array,object, function) uses => [heap memory]
 
+//variables are stored in stack memory
+
+//stack memory example
 let myNameIs = "Surkhab"
 let anotherName = myNameIs
 anotherName = "Govind"
@@ -95,6 +98,7 @@ anotherName = "Govind"
 console.log(myNameIs)
 console.log(anotherName)
 
+//heap memory example
 let userOne = {
    email: surkhab@gmail.com,
    upi: "user@ybl"
