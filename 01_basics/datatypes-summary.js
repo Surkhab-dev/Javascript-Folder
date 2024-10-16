@@ -78,4 +78,15 @@ console.log(typeof myFunction); // function returns function but specially this 
 console.log(typeof null);
 
 //assignment : return types summary of all data types
+//ans:JavaScript is a dynamically typed language. This means that you don't need to specify the data type of a variable when you declare it.
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack and heap memory
+//datatypes are based on memory allocation
+
+// call by value OR Primitive data types (string,number,boolean,null,undefined,BigInt,symbol) uses => [stack memory]
+// call by reference OR Non-primitive data types ( array,object, function) uses => [heap memory]
+
+let myYoutubeNameIs = "SurkhabChannel"
 
